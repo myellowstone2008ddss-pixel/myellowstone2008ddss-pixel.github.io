@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3 — Listas Avançadas e Glossário Técnico</title>
+</head>
+<body>
+
+    <h1>Guia de Referência Rápida — Tecnologias Web</h1>
+
+    <!-- Seção 1 — Roteiro de estudos -->
+    <section>
+        <h2>Seção 1 — Roteiro de Estudos</h2>
+        <p>Abaixo está o cronograma inicial para introdução aos conceitos de desenvolvimento:</p>
+        
+        <ol type="1">
+            <li>
+                Fundamentos da Internet
+                <ol type="a">
+                    <li>Como funcionam os servidores e clientes.</li>
+                    <li>Protocolos de comunicação básicos.</li>
+                </ol>
+            </li>
+            <li>
+                Estruturação com HTML5
+                <ol type="a">
+                    <li>Tags semânticas principais.</li>
+                    <li>Acessibilidade e validação de código.</li>
+                </ol>
+            </li>
+            <li>
+                Estilização com CSS3
+                <ol type="a">
+                    <li>Seletores e especificidade.</li>
+                    <li>Modelos de layout como Flexbox e Grid.</li>
+                </ol>
+            </li>
+        </ol>
+
+        <p>Após dominar a base estrutural e visual, você avançará para a lógica de programação:</p>
+
+        <ol type="1" start="4">
+            <li>
+                Lógica com JavaScript
+                <ol type="a">
+                    <li>Variáveis, funções e estruturas condicionais.</li>
+                    <li>Manipulação básica de eventos.</li>
+                </ol>
+            </li>
+            <li>
+                Consumo de APIs
+                <ol type="a">
+                    <li>Requisições assíncronas com Fetch API.</li>
+                    <li>Tratamento de dados em formato JSON.</li>
+                </ol>
+            </li>
+            <li>
+                Sistemas de Controle de Versão
+                <ol type="a">
+                    <li>Fluxo de trabalho básico do Git.</li>
+                    <li>Hospedagem de repositórios no GitHub.</li>
+                </ol>
+            </li>
+        </ol>
+    </section>
+
+    <!-- Seção 2 — Ranking de tecnologias -->
+    <section>
+        <h2>Seção 2 — Ranking de Tecnologias</h2>
+        <p>Principais competências avaliadas pelo mercado, em ordem de prioridade de aprendizado:</p>
+        
+        <ol reversed>
+            <li>
+                <strong>Bancos de Dados Relacionais</strong>
+                <p>Essencial para entender a persistência de dados estruturados em sistemas corporativos.</p>
+            </li>
+            <li>
+                <strong>Linguagens de Programação Backend</strong>
+                <p>Necessário para construir a lógica de negócios e as regras de segurança do servidor.</p>
+            </li>
+            <li>
+                <strong>Frameworks SPA (Single Page Applications)</strong>
+                <p>Dominar ferramentas como React ou Vue otimiza a criação de interfaces ricas e dinâmicas.</p>
+            </li>
+            <li>
+                <strong>JavaScript Moderno (ES6+)</strong>
+                <p>A base fundamental para interatividade na web e requisito para quase todas as vagas atuais.</p>
+            </li>
+            <li>
+                <strong>HTML5 e CSS3 Semântico</strong>
+                <p>A fundação de qualquer aplicação web. Sem isso, nenhuma tecnologia avançada funciona bem.</p>
+            </li>
+        </ol>
+    </section>
+
+    <!-- Seção 3 — Glossário de termos técnicos -->
+    <section>
+        <h2>Seção 3 — Glossário de Termos Técnicos</h2>
+        <dl>
+            <!-- 1. Termo normal -->
+            <dt>HTTP</dt>
+            <dd>Hypertext Transfer Protocol. Protocolo padrão para transferência de dados na World Wide Web.</dd>
+
+            <!-- 2. Termo normal -->
+            <dt>URL</dt>
+            <dd>Uniform Resource Locator. O endereço único utilizado para localizar um recurso na internet.</dd>
+
+            <!-- 3. Termo normal -->
+            <dt>DNS</dt>
+            <dd>Domain Name System. Sistema que traduz nomes de domínios amigáveis para endereços IP.</dd>
+
+            <!-- 4. Termo normal -->
+            <dt>API</dt>
+            <dd>Application Programming Interface. Conjunto de rotinas que permite a comunicação entre diferentes softwares.</dd>
+
+            <!-- 5. Termo com múltiplas definições (Múltiplos <dd> por <dt> #1) -->
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language. Linguagem padrão para estruturação e marcação de páginas web.</dd>
+            <dd>A base tecnológica usada para definir o significado e a estrutura do conteúdo da internet.</dd>
+
+            <!-- 6. Termo com múltiplas definições (Múltiplos <dd> por <dt> #2) -->
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets. Mecanismo para adicionar estilos como cores, fontes e espaçamentos a documentos web.</dd>
+            <dd>Linguagem de folhas de estilo responsável pela separação entre o design e o conteúdo da aplicação.</dd>
+
+            <!-- 7. Sinônimos compartilhando definição (Múltiplos <dt> por <dd> #1) -->
+            <dt>JavaScript</dt>
+            <dt>JS</dt>
+            <dd>Linguagem de programação interpretada estruturada, de alto nível e que permite interatividade em páginas web.</dd>
+
+            <!-- 8. Sinônimos compartilhando definição (Múltiplos <dt> por <dd> #2) -->
+            <dt>DOM</dt>
+            <dt>Document Object Model</dt>
+            <dd>Interface de programação para documentos HTML e XML que representa a estrutura da página como uma árvore de objetos.</dd>
+        </dl>
+    </section>
+
+    <!-- Seção 4 — Mapa de tecnologias -->
+    <section>
+        <h2>Seção 4 — Mapa de Tecnologias</h2>
+        <ul>
+            <li>
+                Desenvolvimento Web
+                <ul>
+                    <li>
+                        Frontend
+                        <ul>
+                            <li>
+                                Linguagens
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JavaScript</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Frameworks
+                                <ul>
+                                    <li>React</li>
+                                    <li>Vue.js</li>
+                                    <li>Angular</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Backend
+                        <ul>
+                            <li>
+                                Linguagens
+                                <ul>
+                                    <li>Python</li>
+                                    <li>Java</li>
+                                    <li>Node.js</li>
+                                </ul>
+                            </li>
+                            <li>
+                                Bancos de Dados
+                                <ul>
+                                    <li>MySQL</li>
+                                    <li>PostgreSQL</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+</body>
+</html>
