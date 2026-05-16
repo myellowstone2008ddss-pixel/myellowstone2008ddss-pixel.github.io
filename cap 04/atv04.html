@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos Multimídia — Cap. 4 / Ativ. 4</title>
+</head>
+<body>
+
+    <header>
+        <h1>Ambiente Virtual de Aprendizagem - Recursos Multimídia</h1>
+    </header>
+
+    <main>
+        <!-- Bloco 1 — Vídeo com legenda e poster -->
+        <figure>
+            <video controls width="800" height="450" poster="poster-aula.jpg" preload="metadata">
+                <source src="videos/aula-html.mp4" type="video/mp4">
+                <source src="videos/aula-html.webm" type="video/webm">
+                <track kind="subtitles" src="legendas/aula-html.vtt" srclang="pt" label="Português" default>
+                <p>Seu navegador não suporta a reprodução de vídeo nativo. Você pode <a href="videos/aula-html.mp4">baixar o vídeo em MP4</a> para assistir localmente.</p>
+            </video>
+            <figcaption>Vídeo-aula sobre a história e evolução da Web 3.0. Fonte: Departamento de Computação.</figcaption>
+        </figure>
+
+        <!-- Bloco 2 — Áudio com fallback -->
+        <figure>
+            <audio controls preload="metadata">
+                <source src="audios/podcast-aula.mp3" type="audio/mpeg">
+                <source src="audios/podcast-aula.ogg" type="audio/ogg">
+                <p>Seu navegador não suporta a reprodução de áudio nativo. <a href="audios/podcast-aula.mp3">Baixe o arquivo MP3</a> para ouvir no seu dispositivo.</p>
+            </audio>
+            <figcaption>Episódio 12: Desafios da Acessibilidade Digital. Acesse também a <a href="transcrição.html">transcrição completa em texto</a>.</figcaption>
+        </figure>
+
+        <!-- Bloco 3 — Vídeo externo (YouTube) via <iframe> -->
+        <figure>
+            <iframe 
+                width="800" 
+                height="450" 
+                src="https://youtube-nocookie.com" 
+                title="Introdução ao HTML5 e Semântica Web para Iniciantes" 
+                loading="lazy" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen>
+            </iframe>
+            <figcaption>Vídeo "Introdução ao HTML5", publicado pelo canal Curso em Vídeo na plataforma YouTube.</figcaption>
+        </figure>
+
+        <!-- Bloco 4 — Imagem responsiva com <picture> -->
+        <figure>
+            <picture>
+                <source media="(min-width: 768px)" srcset="img/banner-wide.jpg">
+                <img src="img/banner-mobile.jpg" alt="Estudantes universitários trabalhando em laboratório de informática com computadores de última geração" width="400" height="300" loading="lazy">
+            </picture>
+            <figcaption>Banner ilustrativo mostrando o cotidiano dos estudantes na área de tecnologia.</figcaption>
+        </figure>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por: Seu Nome Completo</p>
+        <p>Matrícula: 2026123456</p>
+        <p>Data: 16 de Maio de 2026</p>
+    </footer>
+
+</body>
+</html>
 
