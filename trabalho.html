@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>ATividade Prática CSS . Cap-1 Atv-1</title>
+    </head>
+    <body>
+        <header>
+            <h1>Atividade em Dupla - CSS</h1>
+            <p>Esse formulário foi feito como requsito avaliativo em Programação WEB</p>
+            <h2>Inscrição em Curso</h2>
+        </header>
+        <main>
+            <form method="post" action="https://httpbin.org/post">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+
+                    <label for="nome">*Nome Completo</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">*E-mail</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="cpf">*CPF</label>
+                    <input type="text" id="cpf" name="cpf" required pattern="\d{3}\.\d{3}\.\d{3}\-\d{2}\" placeholder="111.111.111-11">
+
+                    <label for="telefone">*Telefone</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+
+                    <label for="data_nascimento">Data de Nascimento</label>
+                    <input type="date" id="data_nascimento" name="data_nascimento" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informações de Matrícula</legend>
+
+                    <label for="cidade">Cidade de origem</label>
+                    <input type="text" id="cidade" name="cidade" list="cidades"/>
+                    <datalist id="cidades">
+                        <option value="Maceió">
+                        <option value="Arapiraca">
+                        <option value="Palmeira dos Índios">
+                        <option value="Rio Largo">
+                        <option value="Penedo">
+                        <option value="União dos Palmares">
+                        <option value="Delmiro Gouveia">
+                        <option value="Marechal Deodoro">
+                    </datalist>
+
+                    <label for="curso">Curso</label>
+                    <select required id="curso" name="curso">
+                        <option value="">Escolha um curso</option>
+                        <option value="dev_sistemas">Desenvolvimento de Sistemas</option>
+                        <option value="edificacoes">Edificações</option>
+                        <option value="estradas">Estradas</option>
+                        <option value="mecanica">Mecânica</option>
+                        <option value="quimica">Química</option>
+                        <option value="eletrotecnica">Eletrotécnica</option>
+                        <option value="eletronica">Eletrônica</option>
+                    </select>
+
+                    <fieldset>
+                        <legend>Período</legend>
+
+                        <label for="manha">Matutino</label>
+                        <input type="radio" id="manha" name="periodo" required>
+
+                        <label for="tarde">Vespertino</label>
+                        <input type="radio" id="tarde" name="periodo">
+
+                        <label for="noite">Noturno</label>
+                        <input type="radio" id="noite" name="periodo">
+                    </fieldset>
+                </fieldset>
+                <button type="submit">Enviar Matrícula</button>
+            </form>
+        </main>
+        <footer>
+            <ul>Integrantes:
+                <li>Gabriel Smith</li>
+                <li>Dennis dos Santos</li>
+            </ul>
+            <p><i>02/06/2026</i></p>
+            <p>Disciplina: Programação WEB - Leonardo Fernandes</p>
+        </footer>
+    </body>
+</html>

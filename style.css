@@ -1,0 +1,33 @@
+body {
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    text-align: center;
+}
+fieldset {
+    margin-bottom: 30px;
+    border: 5px solid purple;
+    box-shadow: 0 4px 10px rgb(0,0,0,0.4);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+header, footer {
+    background-color: hwb(73 19% 21%);
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 50px
+}
+
+button {
+    border-radius: 10px;
+    background-color: purple;
+    color: white;
+}
+
+main {
+    margin-bottom: 40px;
+}
