@@ -1,0 +1,25 @@
+body{
+    font-family: Monospace,arial,serif;
+    background-color: #0A1828;
+    color: #BFA181;
+}
+ a:hover{
+    color: #BFA181;
+      text-decoration: underline;
+}
+a {
+    color: #178582;
+    text-decoration: none;
+}
+img {
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgb(191, 161, 129, 0.4);
+}
+.atividades h1{
+    text-align: center;
+}
+.atividades fieldset{
+    margin-bottom: 30px;
+    border-radius: 15px;
+    color: #BFA181;
+}
