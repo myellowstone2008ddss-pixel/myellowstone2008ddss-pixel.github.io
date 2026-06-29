@@ -1,5 +1,6 @@
-body{
-    font-family: Monospace,arial,serif;
+  
+  body{
+  font-family: Monospace,arial,serif;
     background-color: #0A1828;
     color: #BFA181;
 }
@@ -15,10 +16,10 @@ img {
     border-radius: 10px;
     box-shadow: 0 10px 10px rgb(191, 161, 129, 0.4);
 }
-.atividades h1{
+ h1{
     text-align: center;
 }
-.ativida fieldset{
+ fieldset{
     margin-bottom: 30px;
     border-radius: 15px;
     color: #BFA181;
@@ -27,3 +28,13 @@ iframe{
     border-radius: 10px;
     box-shadow: 0 10px 10px rgb(191, 161, 129, 0.4);
 }  
+video{
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgb(191, 161, 129, 0.4);
+}
+audio{
+    background-color: #0A1828;
+    color: #BFA181;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgb(191, 161, 129, 0.4);
+}
