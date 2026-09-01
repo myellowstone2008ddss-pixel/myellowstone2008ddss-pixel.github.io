@@ -1,7 +1,49 @@
+.cima{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #178582; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.cima ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.cima li a {
+    display: block;
+    color: #0A1828; 
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+.cima li a:hover {
+    background-color: #BFA181; 
+    color: #0A1828;
+    text-decoration: none;
+}
+.pirncipal {
+    padding-top: 200px; 
+    max-width: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 body{
     font-family: Monospace,arial,serif;
     background-color: #0A1828;
     color: #BFA181;
+}
+.pirncipal fieldset{
+border-radius: 16px;
 }
  a:hover{
     color: #BFA181;
