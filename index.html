@@ -1,58 +1,99 @@
-  <html>
-    <head lang="pt-BR">
-      <link rel="stylesheet" href="style.css">
-      <title>Curriculo</title>
-    </head>
-    <body>
-      <div class="cima">
-        <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="pg_tp/DSH.html">Desenhos</a></li>
-                <li><a href="pg_tp/atv_da_escola.html">ATV do curso</a></li>
-            </ul>
-        </nav>
+<!DOCTYPE html>
+<!-- ============================================================
+     TEMPLATE — Página pessoal com CSS Grid
+     Programação Web / Introdução às Tecnologias Web — IFAL
+     COMO USAR:
+     1) Copie ESTE index.html para o seu repositório (não mude a estrutura).
+     2) Escolha UM dos 3 temas de CSS (tema-1-indigo.css, tema-2-escuro.css
+        ou tema-3-editorial.css) e salve-o no seu projeto como  estilo.css
+        (é o nome que este HTML carrega logo abaixo).
+     3) Troque os textos marcados com "TROQUE" pelo seu conteúdo.
+     IMPORTANTE: o LAYOUT é feito com CSS Grid e é o mesmo nos 3 temas.
+     Você escolhe a APARÊNCIA (fonte, cores, bordas), não o layout.
+     ============================================================ -->
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Pessoal — Dennis Dos Santos Silva</title>
+  <!-- Salve o tema escolhido como "estilo.css" (mesma pasta deste arquivo) -->
+    <link rel="stylesheet" href="stylef.css">
+</head>
+
+<body>
+  <div class="pagina">
+
+    <!-- ====== CABEÇALHO — TROQUE pelo seu nome e sua frase ====== -->
+    <header class="cabecalho">
+      <h1>Dennis dos Santos Silva</h1>
+      <p>Estudante de Sistemas de Informação · IFAL</p>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
     </header>
 
-    <div class="content">
-        <h1>Seja Bem vindo a minha pagina</h1>
-        <p>Aqui esta sla oq .</p>
-    </div>
-    </div>
-<div class="pirncipal">
-<h1> Dennis dos santos silva</h1>
+    <!-- ====== CONTEÚDO PRINCIPAL ====== -->
+    <main class="principal">
+      <section id="sobre" class="cartao">
+        <h2>Sobre mim</h2>
+        <!-- TROQUE por uma breve apresentação sua -->
+        <p> Eu sou o Dennis, eu sou um estundante do curso integrado de desenvolvimento de 
+          sistemas do ifal.Eu estudo como a desenvolver criar, estilizar sites e a programar
+           em JavaScript. Eu gosto bastante de criar jogos no tempo livre </p>
+      </section>
 
-<h2>Desenvolvimento de sistemas</br> 1º Ano do Medio</h2>
+      <section id="projetos" class="cartao">
+        <h2>Projetos</h2>
+        <!-- Galeria com Grid: cada .projeto é um card; adicione/remova à vontade -->
+        <div class="projetos">
+          <article class="projeto">
+            <h3>Projeto 1</h3>
+            <p><a href="https://gx.games/pt-br/games/e1xaa2/dyllow-teste-1/">link para jogo</a><br>
+              esse link leva voce para um jogo que estou desenvolvendo no game maker</p>
+          </article>
+          <article class="projeto">
+            <h3>Projeto 2</h3>
+            <p><a href="index_v.html">pagina</a><br>
+            essa é uma pagina em html com meu proprio estilo</p>
+          </article>
+          <article class="projeto">
+            <h3>Projeto 3</h3>
+            <p>Descrição curta do projeto.</p>
+          </article>
+        </div>
+      </section>
+    </main>
 
-<img src="midia/foto.png"
-width="300"
-height="400"
-/> 
-<h3>13 de julho de 2008 </h3>
-<p>Gosto bastante de gatos, animes, jogos e música (assuntos da cultura geek 
-  <br> no geral). Meus hobbies são jogar games competitivos e assistir a 
-  <br> animes no tempo livre. Os jogos que mais estou jogando no momento são 
-  <br>Minecraft e Brawlhalla. </p>
-<p>Meus animes favoritos são Fire Force, To Your Eternity, 86: Eighty-Six e 
-  <br>Toilet-Bound Hanako-kun. Além disso, sou bem eclético em relação a 
-  <br>música: escuto de tudo.</p>
-<h2> Coisas Que Sei</h2> 
-<ul>
-  <li>sei o básico de html </li>
-  <li>sei o básico de java script</li>
-</ul>
-<h2>Sobre o meu curso</h2>
-Um curso que ensina a mecher com software e hardware(aréa da informatica)</br>
-<a href="https://www2.ifal.edu.br/campus/maceio/ensino/cursos/tecnicos-integrados/desenvolvimento-de-sistemas">link para o site do curso</a>
-      <br>
-</div>
+    <!-- ====== BARRA LATERAL ====== -->
+    <aside class="lateral">
+      <section class="cartao">
+        <h2>Habilidades</h2>
+        <!-- TROQUE pelas suas habilidades -->
+        <ul class="habilidades">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Grid</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
 
-</section>
-</fieldset>
-</div>
-</div>
+      <section id="contato" class="cartao">
+        <h2>Contato</h2>
+        <!-- TROQUE pelos seus links -->
+        <ul class="contato">
+          <li>✉️ <a href="mailto:myellowstone.2008ddss@gmail.com">myellowstone.2008ddss@gmail.com</a></li>
+          <li>🐙 <a href="https://github.com/myellowstone2008ddss-pixel"><br>myellowstone2008ddss-pixel</a></li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- ====== RODAPÉ — TROQUE o nome ====== -->
+    <footer class="rodape">© 2026 Dennis dos Santos Silva · feito com HTML + CSS Grid</footer>
+
+  </div>
 </body>
-  
-  </html>
+
+</html>
